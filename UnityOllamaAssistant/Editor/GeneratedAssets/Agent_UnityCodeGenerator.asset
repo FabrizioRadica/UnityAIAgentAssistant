@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ad2e858880aec4f8071d4fa1a412cc, type: 3}
+  m_Name: Agent_UnityCodeGenerator
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::RadicaDesign.UnityOllamaAssistant.Editor.Settings.LLMAgentSO
+  agentId: unity-code-generator
+  displayName: Unity Code Generator
+  description: Genera script C# completi per Unity 6+, codice production-ready, blocco
+    ```csharp singolo.
+  providerType: 2
+  modelOverride: claude-opus-4-7
+  systemPromptSpecialization: Sei specializzato nella generazione di script C# completi
+    per Unity 6+. Restituisci sempre codice production-ready con namespace, using,
+    classi e SRP rispettata. Usa il New Input System. Restituisci il codice in un
+    SINGOLO blocco markdown ```csharp senza testo descrittivo dentro al blocco.
+  overrideGlobalPolicy: 0
+  tagColor: {r: 0.35, g: 0.65, b: 1, a: 1}

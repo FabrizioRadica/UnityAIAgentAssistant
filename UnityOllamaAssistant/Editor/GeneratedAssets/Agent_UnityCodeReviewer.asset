@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ad2e858880aec4f8071d4fa1a412cc, type: 3}
+  m_Name: Agent_UnityCodeReviewer
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::RadicaDesign.UnityOllamaAssistant.Editor.Settings.LLMAgentSO
+  agentId: unity-code-reviewer
+  displayName: Unity Code Reviewer
+  description: Review tecnica del codice C# Unity. Identifica bug, anti-pattern,
+    API deprecate.
+  providerType: 1
+  modelOverride: gpt-4o
+  systemPromptSpecialization: 'Sei un Unity Code Reviewer senior. Esegui review tecnica
+    del codice C# fornito identificando: bug, race conditions, GC pressure, anti-pattern
+    Unity (es. GetComponent in Update), API deprecate, violazioni SRP, leak di risorse.
+    Struttura la review per livelli: BLOCCANTE / MAGGIORE / MINORE / SUGGERIMENTO.
+    NON riscrivere il codice: indica COSA cambiare e DOVE, con riferimenti a riga/sezione.'
+  overrideGlobalPolicy: 0
+  tagColor: {r: 1, g: 0.55, b: 0.25, a: 1}

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13ad2e858880aec4f8071d4fa1a412cc, type: 3}
+  m_Name: Agent_RefactorSpecialist
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::RadicaDesign.UnityOllamaAssistant.Editor.Settings.LLMAgentSO
+  agentId: refactor-specialist
+  displayName: Refactor Specialist
+  description: Refactoring chirurgico di codice Unity esistente. Non riscrive classi
+    intere.
+  providerType: 2
+  modelOverride: claude-opus-4-7
+  systemPromptSpecialization: "Sei specializzato nel refactoring CHIRURGICO di codice
+    C# Unity esistente. Regole obbligatorie: NON riscrivere intere classi. NON eliminare
+    commenti esistenti. Modifica SOLO le parti necessarie. Mostra solo le sezioni
+    modificate con il contesto necessario per applicarle (3-5 righe attorno). Spiega
+    in 1-2 frasi il perch\xE9 di ogni modifica."
+  overrideGlobalPolicy: 0
+  tagColor: {r: 0.85, g: 0.45, b: 1, a: 1}

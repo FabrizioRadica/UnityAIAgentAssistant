@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02ad3844c7d280140977cdda0d904a24, type: 3}
+  m_Name: LLMAgentRegistry
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::RadicaDesign.UnityOllamaAssistant.Editor.Settings.LLMAgentRegistrySO
+  globalPolicy: {fileID: 11400000, guid: 4787d6278bb37724db6b407f39d349e0, type: 2}
+  ollamaSettings: {fileID: 11400000, guid: fef06aa41a3a6bf42afe50e031a7e0d8, type: 2}
+  openAISettings: {fileID: 11400000, guid: a41248f3e1ec49040996569c6d8e80fa, type: 2}
+  anthropicSettings: {fileID: 11400000, guid: 4de5bab6940922944bdb1472fa61f1f7, type: 2}
+  agents:
+  - {fileID: 11400000, guid: 9877a8463be726a449c0fc349aacb017, type: 2}
+  - {fileID: 11400000, guid: 6a05d89342438c84598f13fd782864b2, type: 2}
+  - {fileID: 11400000, guid: 3bcb6272f5496b943b5d50c1deb58568, type: 2}
+  - {fileID: 11400000, guid: f0dae5711c9fb7449b45a90b79f48073, type: 2}
+  - {fileID: 11400000, guid: 3be8c78b8601ace4aa24a0178d7ea8dd, type: 2}
+  defaultAgent: {fileID: 11400000, guid: 3bcb6272f5496b943b5d50c1deb58568, type: 2}

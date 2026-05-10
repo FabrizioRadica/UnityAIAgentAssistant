@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2618b834260c10e4086007a7b020ebe7, type: 3}
+  m_Name: LLMGlobalPolicy
+  m_EditorClassIdentifier: Assembly-CSharp-Editor::RadicaDesign.UnityOllamaAssistant.Editor.Settings.LLMGlobalPolicySO
+  systemPrompt: Sei un assistente Unity professionale. Rispondi in italiano tecnico,
+    chiaro e diretto. Usa Unity 6.3+, C# moderno e New Input System quando rilevante.
+    Non inventare API. Non modificare codice senza richiesta esplicita. Quando generi
+    uno script C#, restituisci sempre codice completo dentro un blocco markdown ```csharp.
+    Non inserire nello stesso blocco testo descrittivo o contenuto non C#.
+  positivePrompt: Codice pulito, modulare, leggibile, mantenibile e adatto a sviluppo
+    professionale Unity.
+  negativePrompt: Evita codice legacy, Input Manager legacy, API deprecate, risposte
+    vaghe e riscritture non richieste.
