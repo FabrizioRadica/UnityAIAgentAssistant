@@ -1,5 +1,6 @@
 # Radica Unity AI Assistant
 
+
 **AI Development Assistant verticale per Unity Editor.**
 Multi-provider (Ollama / OpenAI / Anthropic) e multi-agent.
 100% editor-only, zero dipendenze runtime.
@@ -7,6 +8,12 @@ Multi-provider (Ollama / OpenAI / Anthropic) e multi-agent.
 Versione corrente: **v1.2.0** — FASE 2 completata (Provider System).
 
 ---
+
+<img width="1691" height="1374" alt="Screenshot 2026-05-10 182049" src="https://github.com/user-attachments/assets/23af181f-ef9b-45a9-804f-fb75517b98f1" />
+<img width="2313" height="1423" alt="Screenshot 2026-05-10 182206" src="https://github.com/user-attachments/assets/da2572a6-d6bd-4a1c-9128-c9baec9ee1da" />
+<img width="1654" height="1366" alt="Screenshot 2026-05-10 182113" src="https://github.com/user-attachments/assets/e95013e3-87ab-4a17-a170-c69b41240d86" />
+<img width="1636" height="1363" alt="Screenshot 2026-05-10 182059" src="https://github.com/user-attachments/assets/7e7549b6-5ded-43e0-b4e9-7ee285fcf57f" />
+
 
 ## Idea di progetto
 
